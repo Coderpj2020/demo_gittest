@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my profile</title>
+    <link rel="stylesheet" href="myprofile.css">
+    <style>
+        body{
+    margin:.1rem;
+    color: rgb(214, 192, 158);
+    background-color: rgb(44, 50, 54);
+}
+div{
+    text-align: center;
+    margin: 0px;
+}
+        .imgphoto{
+        height: 150px; 
+        border-radius: 20%;
+        
+        }
+        img{
+        height: 1.5rem; 
+         padding: 5px;
+        
+        }
+        .head{
+            background-color: rgb(8, 8, 8);
+            text-align: center;
+            border-bottom-right-radius: 20%;
+             border-top-left-radius: 20%;
+         }
+
+       .head:hover{
+           background-color: rgb(35, 68, 35);
+        
+       }
+       
+       img:hover{
+        background-color: rgb(14, 17, 14);
+       }
+       h2{ text-align: center;}
+       p{text-align: center;}
+       ul,ol{text-align: center;
+    }
+      #about:hover{background-color: blue;}
+      #about{padding-bottom: .5rem;
+              text-align:right;
+    }
+    </style>
+</head>
+<body>
+   <div class="head"> <h1>my portfolio</h1>
+    <img class="imgphoto" src="photo.jpg"  alt="profile_photo">
+    <p>Hi, i am prakash</p>
+   <div class="social_media"> <a href="https://www.instagram.com/prakashjaiswal62/?next=%2F">
+        <img alt="insta" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRySlNWax9poagY46Uqj9K-i9_jzkS9xd8z_7PH-pA1ug&s"> </a>
+    <a href="https://www.facebook.com/profile.php?id=100022163508907"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuEulai1Zyi4TeU6bWj2vhG6qlFPIG6tPNyZ-FDZs&s"> </a>
+    <a href="https://leetcode.com/Prakashprakash2020/"> <img src="data:image/jpeg;base64,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"> </a>  </div>
+</div>
+<div id="about">
+    <h2>about </h2>
+    <p>i am a frontend web developer with "MERN" tehcnology  </p>
+    <p> i have also good programing skill and excellent approch to solve codding problems</p>
+</div>
+<div>
+
+    <h2>technolgies:-</h2>
+    <ul>
+        <li>html</li>
+        <li style="text-align: center;">css</li>
+        <li>javascript</li>
+        <li>c/c++</li>
+        <li>data structure and alogorithm</li>
+        <li>github/ms_excell/ms_word</li>
+    </ul>
+    <h2>project:-</h2>
+    <ol>
+        <li> my profile website</li>
+        <li>website to fill form</li>
+        <li>work as web developer intern  for 3 month at scalive </li>
+    </ol></div>
+    
+</body>
+</html>
